@@ -1,3 +1,179 @@
 body{
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#container{
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    width: 1200px;
 
+}
+
+#content{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 30px;
+
+}
+
+#header{
+    padding: 0 30px;
+
+}
+
+#header .logo{
+margin-right: 10px;
+
+}
+
+#header .nav{
+    margin-top: 60px;
+
+
+}
+
+#header .name{
+    text-align: right;
+    font-family: "Lucida Sans";
+    margin-top: 60px;
+    margin-right: 5px;
+}
+#images{
+    height: 400px;
+
+    background-image: url("images/photo-bandeau.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 5px;
+
+}
+
+#contact{
+    background-color: rgba(0,0,0,0.5);
+    height: 80%;
+    width: 90%;
+    margin:40px auto;
+    color: #F8F8F8;
+    text-align: center;
+    padding-top: 15px ;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.nav2{
+    text-align: left;
+}
+
+.nav2 ul{
+    display: block;
+    list-style: none;
+    float: left;
+    color: black;
+
+}
+
+.nav2 ul li a{
+    text-decoration: none;
+
+}
+
+.nav2 ul li a:hover{
+    color: aqua;
+    background: purple;
+}
+
+.nav2 ul li a:current{
+    font-weight: bold;
+    color: purple;
+}
+
+.black{
+    color: black;
+}
+
+#banner{
+    font-family: "sans-serif";
+    background-color: #49AFCD;
+    color: white;
+    letter-spacing: 0.8em;
+    float: right;
+    padding: 0 10px;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.align-left{
+    text-align: left;
+    font-weight: bold;
+}
+
+#left{
+    float: left;
+    width: 20%;
+    margin-right: 25px;
+
+}
+
+#center{
+    float: left;
+    width: 44%;
+    margin-right: 20px;
+
+}
+
+#right{
+    float: right;
+    width: 28%;
+
+}
+
+#divide1{
+    width: 45%;
+    margin-right: 3px;
+}
+
+#divide2{
+    width: 45%;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.orange{
+    background: orange;
+    width: 90%;
+    color: white;
+    height: 70px;
+    border-radius: 2%;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align: right;
+}
+
+.content2{
+    margin-left: auto;
+}
+
+.input{
+    width: 180px;
+    height: 24px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.hint{
+    background-color: #4BB0CD;
+    color: white;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+#right{
+    margin-right: 30px;
 }
